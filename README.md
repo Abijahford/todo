@@ -16,6 +16,6 @@ rails routes - displays the location of the DBs and how to view them.
 
 ## Root Route
 
-In config/routes.rb added root 'lists#index' to assure that this is the homepage.
----------------------list controller index method-------------------------------
+In config/routes.rb added root 'lists#index' to assure that this is the homepage.<br>
+---------------------list controller index method-------------------------------<br>
 --------------calling the index method of our list controller-------------------
