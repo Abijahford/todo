@@ -34,3 +34,7 @@ add reference to gemfile
 @import 'bootstrap'
 
 then install gem
+
+## Adding Links in .html.erb
+
+<%= link_to 'Edit', edit_list_path(list) %>
