@@ -19,3 +19,10 @@ rails routes - displays the location of the DBs and how to view them.
 In config/routes.rb added root 'lists#index' to assure that this is the homepage.<br>
 ---------------------list controller index method-------------------------------<br>
 --------------calling the index method of our list controller-------------------
+
+## Views Walkthru
+
+apps/views/lists - Where visible changes can be made.
+
+apps/views/lists/edit.html.erb - contains a partial or: <%= render 'form', list: @list %><br>
+partials have a \_ before them, so go to \_form.html.erb to edit the format.
