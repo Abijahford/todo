@@ -26,3 +26,11 @@ apps/views/lists - Where visible changes can be made.
 
 apps/views/lists/edit.html.erb - contains a partial or: <%= render 'form', list: @list %><br>
 partials have a \_ before them, so go to \_form.html.erb to edit the format.
+
+## Adding Bootstrap CSS
+
+add reference to gemfile
+
+@import 'bootstrap'
+
+then install gem
