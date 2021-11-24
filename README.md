@@ -1,4 +1,4 @@
-# README
+# To-Do List from start to finish with Ruby on Rails
 
 ## Database: (2 step process)
 
@@ -13,3 +13,9 @@ CRUD - Create Read Update Destroy
 ## Rake Routes and Views
 
 rails routes - displays the location of the DBs and how to view them.
+
+## Root Route
+
+In config/routes.rb added root 'lists#index' to assure that this is the homepage.
+---------------------list controller index method-------------------------------
+--------------calling the index method of our list controller-------------------
