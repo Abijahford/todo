@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Database: (2 step process)
 
-Things you may want to cover:
+Rails Scaffold - rails g scaffold lists description:string completed:boolean
+Created the migration with 2 fields, description and completed which defaults to false.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Database Migration - rake db:migrate -> adds schema.rb
+Pushing the Migration whichs creates a snapshot of our Database.
