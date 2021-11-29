@@ -38,3 +38,7 @@ then install gem
 ## Adding Links in .html.erb
 
 <%= link_to 'Edit', edit_list_path(list) %>
+
+## Redirection
+
+changing where things redirect to in the format.html line after redirect_to
