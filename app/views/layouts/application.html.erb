@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>To Do List</title>
+    <title>My To Do List</title>
     <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,8 +11,10 @@
   </head>
 
   <body>
-  <div class="container">
-    <%= yield %>
-  </div>
+    <%= render 'lists/navbar' %>
+    <div class="container">
+      <%= render 'flash' %>
+      <%= yield %>
+    </div>
   </body>
 </html>
